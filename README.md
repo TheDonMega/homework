@@ -15,4 +15,9 @@ This challenge is to showcase your skill, so it is recommended to spend time you
 - Run chromedriver
 - In a different terminal window or tab, cd into the homework project and you can now execute the command "mix test" and it will run all of the test files in the "test" folder
 
+## Created Three New Test Cases
 
+- Status Codes Test Case: Verifies links and urls from each page.
+- Drop Down Test Case: Select and verifies dropdown is selected and what to expect.
+- Check Box Text Case: Verifies checkbox is selected upon entry, selects the same checkbox and verifies it is no longer selected.
+- If any failures it will take a screenshot and put it into the screenshots/ directory.
