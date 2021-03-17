@@ -7,7 +7,7 @@ defmodule HomeworkTestCheckBoxes do
   hound_session()
   
   #Starting Test for Checkbox Page
-  test "goes to checkboxes page" do
+  test "verify checkboxes" do
 
     #navigating to checbox page
     navigate_to "https://the-internet.herokuapp.com/checkboxes"
@@ -22,7 +22,7 @@ defmodule HomeworkTestCheckBoxes do
         raise error
     end    
    
-   #Click Checkbox 2 and verify it is now unselected
+   #Click Checkbox 2 and verify it is now unselected and take screenshot if still selected
     element |> click()
     try do
       assert selected?(element) == false

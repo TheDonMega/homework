@@ -9,4 +9,5 @@ defmodule HomeworkTest do
   test "goes to google" do
     navigate_to "http://google.com"
   end
+
 end

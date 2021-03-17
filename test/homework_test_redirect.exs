@@ -7,7 +7,7 @@ defmodule HomeworkTestRedirect do
   hound_session()
   
   #Starting Test for Redirect Page
-  test "goes to redirect page" do
+  test "verify redirect" do
 
     #navigating to redirect page
     navigate_to "https://the-internet.herokuapp.com/status_codes"
