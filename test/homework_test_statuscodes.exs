@@ -1,4 +1,4 @@
-defmodule HomeworkTestRedirect do
+defmodule HomeworkTestStatusCodes do
   # Import helpers
   use Hound.Helpers
   use ExUnit.Case
@@ -6,10 +6,10 @@ defmodule HomeworkTestRedirect do
   # Start hound session and destroy when tests are run
   hound_session()
   
-  #Starting Test for Redirect Page
-  test "verify redirect" do
+  #Starting Test for Status Codes Page
+  test "verify status codes" do
 
-    #navigating to redirect page
+    #navigating to status codes page
     navigate_to "https://the-internet.herokuapp.com/status_codes"
 
     #Find element and click on element
