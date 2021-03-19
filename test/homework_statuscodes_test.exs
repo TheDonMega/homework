@@ -78,7 +78,7 @@ defmodule HomeworkTestStatusCodes do
 
     #Verify that the URL is back to main page take screenshot upon failure
     try do
-      assert current_url() == "https://the-internet.herokuapp.com/status_codes/"
+      assert current_url() == "https://the-internet.herokuapp.com/status_codes"
     rescue
       error ->
         take_screenshot("screenshots/homeworkteststatuscodes.png")
